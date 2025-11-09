@@ -15,7 +15,7 @@ if [ -d .os-build ]; then
     fi
 
     else
-        rm -rf .os-build
+        sudo rm -rf .os-build
 fi
 
 mkdir -p .os-build

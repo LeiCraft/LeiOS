@@ -2,4 +2,4 @@
 
 set -eo pipefail
 
-rm -rf ./.os-build
+sudo rm -rf ./.os-build
