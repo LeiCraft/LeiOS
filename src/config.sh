@@ -1,6 +1,22 @@
-#!/bin/sh
+#!/bin/bash
 
-set -e
+set -eo pipefail
+
+if [ -d .os-build ]; then
+    # check for -f or --force flag
+    if [[ " $* " != *" -f "* &&  " $* " != *" --force "* ]]; then
+        
+        # prompt user for confirmation
+        read -p ".os-build directory already exists. Do you want to remove it? (Y/n) " choice
+        case "$choice" in
+            n|N ) echo "Aborting build."; exit 1;;
+            * ) echo "Removing existing .os-build directory.";;
+        esac
+    fi
+
+    else
+        rm -rf .os-build
+fi
 
 mkdir -p .os-build
 cd .os-build
@@ -33,4 +49,4 @@ lb config noauto \
 --iso-volume LeiOS-0.1.0 \
 "${@}"
 
-cp -r ../preseed.cfg config/includes.installer
+cp -r ../src/preseed.cfg config/includes.installer

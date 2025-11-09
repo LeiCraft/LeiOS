@@ -2,4 +2,6 @@
 
 set -eo pipefail
 
-rm -rf ./.os-build
+cd .os-build
+
+sudo lb build
