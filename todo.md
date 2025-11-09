@@ -139,4 +139,5 @@ If you want to go further:
 
 ---
 
-Would you like me to show you how to integrate **Calamares** and make it look like a modern polished OOBE (like KDE neon or Pop!_OS)? That’s a nice next step if you want your distro to feel “official.”
+https://github.com/manojsgowda2910/Custom-Debian-ISO-Project
+https://live-team.pages.debian.net/live-manual/html/live-manual/the-basics.en.html#171

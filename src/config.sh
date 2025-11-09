@@ -38,7 +38,7 @@ lb config noauto \
 --security true \
 --updates true \
 --source false \
---linux-packages linux-image-6.12.48 \
+--linux-packages linux-image \
 --linux-flavours amd64 \
 --apt-recommends false \
 --binary-filesystem ext4 \
