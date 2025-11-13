@@ -145,4 +145,5 @@ https://codeberg.org/Peppermint_OS/bubbles
 https://live-team.pages.debian.net/live-manual/html/live-manual/managing-a-configuration.en.html#managing-a-configuration
 https://salsa.debian.org/live-team/
 https://gitlab.com/nodiscc/debian-live-config
+https://git.devuan.org/devuan/installer-iso
 ```
