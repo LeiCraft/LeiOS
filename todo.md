@@ -146,4 +146,5 @@ https://live-team.pages.debian.net/live-manual/html/live-manual/managing-a-confi
 https://salsa.debian.org/live-team/
 https://gitlab.com/nodiscc/debian-live-config
 https://git.devuan.org/devuan/installer-iso
+https://github.com/KoruX-GNU-Linux/Koru
 ```
