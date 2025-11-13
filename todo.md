@@ -138,9 +138,11 @@ If you want to go further:
 * **Automate post-install OOBE** with `systemd --user` scripts or first-login scripts in `/etc/profile.d/`.
 
 ---
-
+```
 https://github.com/manojsgowda2910/Custom-Debian-ISO-Project
 https://live-team.pages.debian.net/live-manual/html/live-manual/the-basics.en.html#171
 https://codeberg.org/Peppermint_OS/bubbles
 https://live-team.pages.debian.net/live-manual/html/live-manual/managing-a-configuration.en.html#managing-a-configuration
-salsa.debian.org/live-team/
+https://salsa.debian.org/live-team/
+https://gitlab.com/nodiscc/debian-live-config
+```
