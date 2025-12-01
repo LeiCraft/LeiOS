@@ -147,4 +147,5 @@ https://salsa.debian.org/live-team/
 https://gitlab.com/nodiscc/debian-live-config
 https://git.devuan.org/devuan/installer-iso
 https://github.com/KoruX-GNU-Linux/KoruX
+https://github.com/Vanilla-OS
 ```
